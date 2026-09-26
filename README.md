@@ -64,3 +64,14 @@ lessons 01-18 above are the complete core python course. everything from here on
 * 23: AI and LLMs with python - the chat-completion API pattern used by modern language model APIs, tokens and cost, prompt engineering basics, hallucination caveats, and a classical rule-based sentiment scorer for contrast
 * 24: web development with Flask - routes, templates, JSON APIs, request handling, a small todo-list mini-app, comparison to Django/FastAPI/Express/Rails/Spring
 * 25: automation and practical scripts - building CLI tools with `argparse`, running shell commands safely with `subprocess`, file/folder automation, batch renaming, and web scraping with `requests`+`BeautifulSoup`
+
+**web crawling and game development**
+
+another optional add-on arc: building a real (breadth-first) web crawler, then a full game-development track with pygame - from the absolute basics all the way up to a small but genuine RPG (role playing game).
+* 26: building a web crawler - following links across many pages (not just scraping one page like lesson 25), robots.txt, politeness/rate-limiting, concurrent fetching
+* 27: game development basics with pygame - the game loop, drawing, fonts, simulated input, collision detection, and the headless-rendering trick that lets every game notebook in this course run and show its output without a real screen
+* 28: classic mini-games - complete, playable-logic implementations of Pong, Snake and Breakout
+* 29: sprites, animation, camera and tile-based maps - the technical foundation the RPG lessons are built on
+* 30: procedural graphics generation - generating sprite textures with Pillow, maze/dungeon generation, and simple noise-based terrain
+* 31: RPG development part 1 - a tile-based world, player movement with wall collision, NPCs and a dialogue system
+* 32: RPG development part 2 (capstone) - inventory/items, a turn-based battle system, and a full scripted playthrough tying the whole game-dev arc together
