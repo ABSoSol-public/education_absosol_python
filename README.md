@@ -86,3 +86,14 @@ the game-dev arc continues: real client-server multiplayer networking, then appl
 * 37: monster-collecting game clone part 1 - an original creature/type/move system, a type-effectiveness chart, speed-based turn order, status effects and a catching mechanic
 * 38: monster-collecting game clone part 2 (capstone) - overworld exploration, wild encounters, trainer battles, a creature registry, and a full scripted playthrough
 * 39: monster-collecting game clone multiplayer - a networked, server-refereed PvP creature battle, closing out the whole game-development arc
+
+**databases in depth: SQLAlchemy and multiple real database technologies**
+
+lesson 13 covered raw sqlite3. This arc goes much deeper: the SQLAlchemy toolkit (both its Core expression language and its ORM), a real Alembic migration workflow, and hands-on lessons against several genuinely different database technologies - relational (PostgreSQL, MySQL/MariaDB), key-value (Redis) and document/NoSQL (MongoDB-style, via `mongomock`) - so you can feel the real differences between them, not just read about them.
+* 40: SQLAlchemy fundamentals - the Core expression language (`Table`/`Column`/`insert()`/`select()`) side-by-side with lesson 13's raw sqlite3, then the modern declarative ORM (`Mapped`/`mapped_column`, `relationship()`) with full CRUD, and when to reach for Core vs ORM
+* 41: SQLAlchemy relationships and Alembic migrations - many-to-many relationships, the N+1 query problem and fixing it with `selectinload()`/`joinedload()`, cascade behavior, join/aggregate queries, and a complete Alembic migration walkthrough (create table, add a column, downgrade) driven entirely from Python
+* 42: PostgreSQL with Python - raw `psycopg2`, the same SQLAlchemy Core/ORM code from lesson 40 running unchanged against a real networked Postgres server, `SERIAL`/`RETURNING`, `JSONB`, `ARRAY` columns, window functions, and an in-depth transaction/rollback demo
+* 43: MySQL/MariaDB with Python - `pymysql`, `AUTO_INCREMENT`/`lastrowid` and the lack of a `RETURNING` clause, InnoDB vs MyISAM, a collation gotcha, native JSON columns, and an honest look at a genuine MySQL-vs-MariaDB divergence
+* 44: Redis key-value store - strings/TTL/lists/hashes/sets/sorted sets against a real Redis server, a live-timed cache-aside pattern, and pub/sub with a background listener thread
+* 45: MongoDB and NoSQL document stores - the document model, full CRUD, the embedding-vs-referencing modeling tradeoff, indexes, and aggregation pipelines (via `mongomock`, an in-memory but API-faithful stand-in for a real MongoDB server, explicitly disclosed)
+* 46: choosing the right database (capstone) - relational vs document/key-value/wide-column/graph, ACID vs BASE, the CAP theorem, the same e-commerce order modeled 3 different ways, and a practical decision guide for picking (or combining) database technologies
