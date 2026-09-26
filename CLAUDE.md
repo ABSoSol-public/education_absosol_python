@@ -17,14 +17,19 @@ line now — `it_wiw` and the old `claude/...` branch were deleted by the
 user). Just commit and push directly to `actual_release`, no PRs needed
 unless the user asks.
 
-**Status as of now**: lessons 00–46 exist, are all independently validated
+**Status as of now**: lessons 00–48 exist, are all independently validated
 (zero execution errors), and are pushed. The course covers: core Python
 (00–18), a specialization track — data science/ML/AI/Flask/automation
 (19–25), web crawling + full pygame game-dev arc up to an RPG (26–32), game
-networking/multiplayer + a deeper RPG + a Pokémon-style clone (33–39), and a
+networking/multiplayer + a deeper RPG + a Pokémon-style clone (33–39), a
 SQLAlchemy + multi-database arc (40–46: SQLAlchemy Core/ORM, Alembic
 migrations, PostgreSQL, MySQL/MariaDB, Redis, MongoDB-style NoSQL via
-mongomock, and a "choosing the right database" capstone).
+mongomock, and a "choosing the right database" capstone), and a
+self-implementations/best-practices category (47–48: hand-rolled data
+structures contrasted with the built-ins; clean code/SOLID/design
+patterns/anti-patterns). Lessons 47-48 were written directly rather than
+delegated to parallel agents — no external services/infra needed for that
+content, so direct writing was both cheaper and simpler.
 
 ## The user's standing preferences (established over many sessions, still valid)
 
