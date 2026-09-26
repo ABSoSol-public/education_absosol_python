@@ -97,3 +97,9 @@ lesson 13 covered raw sqlite3. This arc goes much deeper: the SQLAlchemy toolkit
 * 44: Redis key-value store - strings/TTL/lists/hashes/sets/sorted sets against a real Redis server, a live-timed cache-aside pattern, and pub/sub with a background listener thread
 * 45: MongoDB and NoSQL document stores - the document model, full CRUD, the embedding-vs-referencing modeling tradeoff, indexes, and aggregation pipelines (via `mongomock`, an in-memory but API-faithful stand-in for a real MongoDB server, explicitly disclosed)
 * 46: choosing the right database (capstone) - relational vs document/key-value/wide-column/graph, ACID vs BASE, the CAP theorem, the same e-commerce order modeled 3 different ways, and a practical decision guide for picking (or combining) database technologies
+
+**self-implementations and best practices**
+
+a shorter add-on category: implementing core data structures from scratch to understand what the built-ins are actually doing underneath, then a lesson on writing python code that stays readable and flexible as it grows.
+* 47: implementing core data structures yourself - a singly linked list, a stack and a queue (with a timed `list.pop(0)` vs `deque.popleft()` race), a binary search tree, and a simplified hash map with chaining and auto-growing, each one contrasted against the real built-in that already does the same job, plus a Big-O cheat sheet
+* 48: python best practices - clean code habits, the SOLID principles with concrete tiny examples (including a Liskov Substitution violation you can actually see break), classic anti-patterns (the mutable default argument trap, bare `except:`, magic numbers), three design patterns (Strategy, Factory, Observer), and a practical code review checklist
