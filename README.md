@@ -75,3 +75,14 @@ another optional add-on arc: building a real (breadth-first) web crawler, then a
 * 30: procedural graphics generation - generating sprite textures with Pillow, maze/dungeon generation, and simple noise-based terrain
 * 31: RPG development part 1 - a tile-based world, player movement with wall collision, NPCs and a dialogue system
 * 32: RPG development part 2 (capstone) - inventory/items, a turn-based battle system, and a full scripted playthrough tying the whole game-dev arc together
+
+**game networking, a deeper RPG, and a monster-collecting game clone**
+
+the game-dev arc continues: real client-server multiplayer networking, then applying it to both a more elaborate RPG and an original monster-collecting (Pokemon-style) game clone.
+* 33: game networking basics - sockets, TCP vs UDP, client-server vs peer-to-peer, the authoritative-server pattern, and the message-framing problem
+* 34: building a multiplayer game server - a real asyncio-based server with multiple concurrent clients, state broadcast/sync, client-side prediction and server reconciliation, and a server tick loop
+* 35: advanced RPG systems - leveling/XP, status effects, a multi-character party, a shop/economy, save/load persistence, and multiple connected map areas
+* 36: a multiplayer RPG - several players sharing one authoritative server and one tile-based world in real time
+* 37: monster-collecting game clone part 1 - an original creature/type/move system, a type-effectiveness chart, speed-based turn order, status effects and a catching mechanic
+* 38: monster-collecting game clone part 2 (capstone) - overworld exploration, wild encounters, trainer battles, a creature registry, and a full scripted playthrough
+* 39: monster-collecting game clone multiplayer - a networked, server-refereed PvP creature battle, closing out the whole game-development arc
