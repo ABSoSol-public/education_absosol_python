@@ -23,13 +23,33 @@ https://github.com/sponsors/ABSoSol-public
 # py_edu_learnpython
 education training stuff for learning python
 
+a complete python training from absolute beginner to expert level, structured as a series of numbered lessons inside `topics/`. every lesson builds on the previous ones, most lessons also contain exercises with sample solutions and a "quick comparison to other languages" section (JavaScript/TypeScript, Java, C#, C++, Go, Rust) so you understand not only *how* python does something, but also how that compares to the rest of the programming world.
+
 # Lessons
-* 00: installation and preconditions
+
+**beginner**
+* 00: installation and preconditions, VSC/Python setup, pip and virtual environments (venv)
 * 01: jupyter basics, syntax, comments, built-in functions, standard variables
 * 02: datatype enforce, complex datatypes (lists, dict), class function-calls, list-calls, print syntax
+* 03: conditional statements (if/elif/else), loops (while/for), comprehensions, functions (def, parameters, return)
 
-preview:
-* 03: conditional statement, loops, functions
-* 04: working with modules and working with data
-* 05: working with databases
-* 06: working with webinformations
+**intermediate**
+* 04: functions advanced - *args/**kwargs, variable scope, lambda, higher-order functions, closures, recursion
+* 05: modules and packages, working with files (open/with), pathlib, json, csv
+* 06: error handling - try/except/else/finally, custom exceptions, context managers, assert
+* 07: object oriented programming basics - classes, `__init__`, dunder methods, properties, static/classmethods, encapsulation
+* 08: object oriented programming advanced - inheritance, MRO, abstract base classes, mixins, dataclasses, composition vs inheritance
+* 09: iterators, generators, decorators - the iterator protocol, `yield`, itertools, functools, memoization
+
+**advanced**
+* 10: typing and modern python features - type hints, `Enum`, `NamedTuple`, `TypedDict`, `Protocol`, structural pattern matching (`match`/`case`), the walrus operator
+* 11: concurrency and parallelism - the GIL, threading, multiprocessing, `concurrent.futures`, asyncio
+* 12: regex, datetime and the collections module - `re`, `datetime`, `Counter`, `defaultdict`, `namedtuple`, `deque`
+* 13: working with databases - `sqlite3`, parameterized queries, joins, a short look at ORMs
+* 14: working with web informations - HTTP basics, REST APIs, `urllib`/`requests`, building and consuming JSON APIs
+
+**expert**
+* 15: testing, debugging and logging - `unittest`, `logging`, `pdb`/`breakpoint()`, `traceback`
+* 16: packaging, environments and performance - `pyproject.toml`, semantic versioning, `timeit`, `cProfile`, memory basics
+* 17: Python vs. other modern languages - a comprehensive side-by-side comparison against JavaScript/TypeScript, Java, C#, C++, Go and Rust
+* 18: capstone project - a small real application (an expense tracker) combining OOP, persistence, decorators, generators, typing and tests into one coherent piece of code, plus ideas to keep extending it on your own
