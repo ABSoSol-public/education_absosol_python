@@ -53,3 +53,14 @@ a complete python training from absolute beginner to expert level, structured as
 * 16: packaging, environments and performance - `pyproject.toml`, semantic versioning, `timeit`, `cProfile`, memory basics
 * 17: Python vs. other modern languages - a comprehensive side-by-side comparison against JavaScript/TypeScript, Java, C#, C++, Go and Rust
 * 18: capstone project - a small real application (an expense tracker) combining OOP, persistence, decorators, generators, typing and tests into one coherent piece of code, plus ideas to keep extending it on your own
+
+**specialization (data science, AI/ML, web development, automation)**
+
+lessons 01-18 above are the complete core python course. everything from here on is an optional specialization track that builds on top of it and goes into the application areas python is most famous for today - install the mentioned third-party packages with pip as you go (each lesson says exactly what it needs).
+* 19: data science with NumPy and pandas - fast numeric arrays, DataFrames, filtering/grouping/aggregating, handling missing data, reading/writing csv, merging tables
+* 20: data visualization with matplotlib - line/bar/scatter/histogram plots, subplots, plotting straight from pandas, saving figures
+* 21: machine learning basics with scikit-learn - supervised learning, train/test splits, a classifier and a regression model, accuracy/confusion matrix, overfitting vs underfitting
+* 22: machine learning pipelines and beyond - feature scaling, `Pipeline`, cross-validation, `GridSearchCV` hyperparameter tuning, a small neural network with `MLPClassifier`, and an honest pointer to PyTorch/TensorFlow for real deep learning
+* 23: AI and LLMs with python - the chat-completion API pattern used by modern language model APIs, tokens and cost, prompt engineering basics, hallucination caveats, and a classical rule-based sentiment scorer for contrast
+* 24: web development with Flask - routes, templates, JSON APIs, request handling, a small todo-list mini-app, comparison to Django/FastAPI/Express/Rails/Spring
+* 25: automation and practical scripts - building CLI tools with `argparse`, running shell commands safely with `subprocess`, file/folder automation, batch renaming, and web scraping with `requests`+`BeautifulSoup`
